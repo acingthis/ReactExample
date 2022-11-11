@@ -1,14 +1,29 @@
-import React, { Component, useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 
 
 function Container() {
+    const [hasError, setError] = useState(false);
     const [Likecount, setCount] = useState(0);
     let Dislikecount = 0;
-    if (Likecount > 0)
+    try
     {
-        Dislikecount = Likecount / 0;
+        if (Likecount > 0)
+        {
+            Dislikecount = Likecount / 0;
+        }
+    }
+    catch(error)
+    {
+        setError(true);
+    }
+
+    if (hasError)
+    {
+        return(
+            <p>A Problem has Occurred with the button</p>
+        );
     }
 
     return (
