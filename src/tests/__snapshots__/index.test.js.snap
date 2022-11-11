@@ -1,0 +1,149 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div>
+  <h1
+    data-testid="PageHeading"
+  >
+    Doggo better than catz
+  </h1>
+  <br />
+  <table>
+    <tr>
+      <th>
+        <p>
+          Doggo
+        </p>
+      </th>
+      <th>
+        <p>
+          catz
+        </p>
+      </th>
+    </tr>
+    <tr>
+      <th>
+        <h1>
+          Likes
+        </h1>
+        <p>
+          0
+        </p>
+        <button
+          onClick={[Function]}
+        >
+          Like Me
+        </button>
+      </th>
+      <th>
+        <h1>
+          Dislikes
+        </h1>
+        <p>
+          0
+        </p>
+        <button
+          onClick={[Function]}
+        >
+          dislike Me
+        </button>
+      </th>
+    </tr>
+    <tr>
+      <th>
+        <iframe
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen={true}
+          frameborder="0"
+          height="400px"
+          src="https://www.youtube.com/embed/AXCZ7Ge28dc"
+          title="Best DOGS on the internet! 🐶 (Funny DOGGOS Compilation) 🥰"
+          width="500px"
+        />
+      </th>
+      <th>
+        <iframe
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen={true}
+          frameborder="0"
+          height="400px"
+          src="https://www.youtube.com/embed/yWkSySVPXEE"
+          title="Cats Being Jerks Supercut"
+          width="500px"
+        />
+      </th>
+    </tr>
+    <tr>
+      <th>
+        <a
+          href="https://www.thesprucepets.com/reasons-dogs-are-better-than-cats-1118371"
+        >
+          <img
+            alt="Doggo"
+            height="400px"
+            src="Pics/husky.jpg"
+            width="500px"
+          />
+        </a>
+      </th>
+      <th>
+        <a
+          href="https://www.elitedaily.com/women/cats-literally-suck/709388"
+        >
+          <img
+            alt="Doggo"
+            height="400px"
+            src="Pics/cat.jpg"
+            width="500px"
+          />
+        </a>
+      </th>
+    </tr>
+    <tr>
+      <th>
+        <img
+          alt="Doggo2"
+          height="400px"
+          src="Pics/Doggo.jpg"
+          width="500px"
+        />
+      </th>
+      <th>
+        <img
+          alt="Doggo"
+          height="400px"
+          src="Pics/catz.jpg"
+          width="500px"
+        />
+      </th>
+    </tr>
+  </table>
+  <hr />
+  <h2>
+    Dogs be Gud
+  </h2>
+  <p>
+    Just cos
+  </p>
+  <hr />
+  <h2>
+    catz be bad
+  </h2>
+  <p>
+    Cos cats be Jerks
+  </p>
+  <hr />
+  <h3>
+    reason
+  </h3>
+  <iframe
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen={true}
+    frameborder="0"
+    height="500px"
+    src="https://www.youtube.com/embed/73HwmscV1U8"
+    title="Reasons Why Dogs Are Better Than Cats, And Here Are The Pics And Memes To Prove It"
+    width="1000px"
+  />
+</div>
+`;

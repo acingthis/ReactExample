@@ -2,8 +2,7 @@ import React, { useState } from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 
-
-function Container() {
+function Index() {
     const [hasError, setError] = useState(false);
     const [Likecount, setCount] = useState(0);
     let Dislikecount = 0;
@@ -28,7 +27,7 @@ function Container() {
 
     return (
         <div>
-            <h1>Doggo better than catz</h1>
+            <h1 data-testid='PageHeading'>Doggo better than catz</h1>
             <br/>
 
             <table>
@@ -89,5 +88,11 @@ function Container() {
 }
 
 
+
+//Testing
+//export default Index;
+
+//Doesn't work with test
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<Container />);
+
+root.render(<Index />);
